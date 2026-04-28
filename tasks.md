@@ -7,3 +7,4 @@
 7. Reach out to faculty.
 8. Finalize initial courses
 9. connect with outsider companies.
+10. How to make our discord server public and what we position to public.
