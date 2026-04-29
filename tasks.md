@@ -13,3 +13,4 @@
 13. set up our linkedin of the company
 14. How to approach with
 15. add placement sections, include a lot of companies, millenium, aqr, schonfield, janestreet, openai, deshaw, citadel securities, imc trading.
+16. Guest speaker, from stanford cs phd, google deepmind, stanford mse phd, penn math/ cs phd, columbia ieor/ physics phd, cbs econ phd.
