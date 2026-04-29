@@ -1,10 +1,14 @@
 1. apply for registration for clubs.
 2. edit current homepage so we have the full linkedin page connected.
 3. try purchase a full ip address for our home page.
-4. attract fundraisers and future events. 
-5. Pin down and setup our first meeting and future events series/
-6. foster community projects.
-7. Reach out to faculty.
-8. Finalize initial courses
-9. connect with outsider companies.
-10. How to make our discord server public and what we position to public.
+4. Add later member parts.
+5. attract fundraisers and future events. 
+6. Pin down and setup our first meeting and future events series/
+7. foster community projects.
+8. Reach out to faculty.
+9. Finalize initial courses
+10. connect with outsider companies.
+11. How to make our discord server public and what we position to public.
+12. how to advertise us among undergrad population and CBS msfe community.
+13. set up our linkedin of the company
+14. How to approach with
