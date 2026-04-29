@@ -12,3 +12,4 @@
 12. how to advertise us among undergrad population and CBS msfe community.
 13. set up our linkedin of the company
 14. How to approach with
+15. add placement sections, include a lot of companies, millenium, aqr, schonfield, janestreet, openai, deshaw, citadel securities, imc trading.
