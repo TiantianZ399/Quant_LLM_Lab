@@ -7,5 +7,5 @@ https://tiantianz399.github.io/Quant_LLM_Lab/index.html homepage for our lab/clu
 
 officially : https://columbiaquantllm.com/
 
-https://columbiaquantllm.com/team
+see our team:  https://columbiaquantllm.com/team
 
