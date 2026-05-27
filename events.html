@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Events | Columbia Quant LLM Club</title>
+  <meta name="description" content="Columbia Quant LLM Club events, talks, and meetups for Columbia University students." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="logo" href="index.html"><span>CQLLM</span><span>AI × Quant</span></a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="team.html">Our Team</a>
+        <a href="research.html">Research</a>
+        <a href="education.html">Education</a>
+        <a class="active" href="events.html">Events</a>
+        <a href="recruitment.html">Join Us</a>
+        <a href="sponsors.html">Partner With Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="kicker">Events</div>
+      <h1>Events</h1>
+      <p>Talks, meetups, and club gatherings. Register via the Google Form link on each event.</p>
+    </section>
+
+    <section class="section" id="upcoming-events">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">Upcoming</div>
+          <h2>Upcoming events</h2>
+        </div>
+        <p class="lead">Workshops, reading groups, info sessions, and other upcoming club activities.</p>
+      </div>
+      <div class="grid two" id="upcoming-events-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="section" id="past-events">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">Archive</div>
+          <h2>Past events</h2>
+        </div>
+        <p class="lead">Previous club events. Registration is closed; forms are kept for reference where applicable.</p>
+      </div>
+      <div class="grid two" id="past-events-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <div class="footer-wordmark">Columbia Quant LLM Club</div>
+      <button type="button" class="events-admin-trigger" id="events-admin-trigger" aria-label="Events">Events</button>
+    </div>
+    <div>© 2026 Columbia Quant LLM Club. All rights reserved. Currently unofficial.</div>
+  </footer>
+
+  <div class="events-admin-backdrop" id="events-password-modal" hidden>
+    <div class="events-admin-dialog" role="dialog" aria-labelledby="events-password-title" aria-modal="true">
+      <h2 id="events-password-title">Admin access</h2>
+      <p class="lead">Enter the club password to manage events.</p>
+      <form id="events-password-form">
+        <label class="events-admin-label" for="events-password-input">Password</label>
+        <input class="events-admin-input" id="events-password-input" type="password" autocomplete="current-password" required />
+        <p class="events-admin-error" id="events-password-error" hidden>Incorrect password. Try again.</p>
+        <div class="events-admin-actions">
+          <button type="button" class="button secondary" id="events-password-cancel">Cancel</button>
+          <button type="submit" class="button primary">Enter</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="events-admin-backdrop" id="events-admin-panel" hidden>
+    <div class="events-admin-panel" role="dialog" aria-labelledby="events-admin-title" aria-modal="true">
+      <div class="events-admin-panel-header">
+        <h2 id="events-admin-title">Manage events</h2>
+        <button type="button" class="events-admin-close" id="events-admin-close" aria-label="Close admin panel">×</button>
+      </div>
+
+      <p class="lead events-admin-note">Changes save to this browser immediately. Download <code>events-data.json</code> and commit it to GitHub so everyone sees updates on the live site.</p>
+
+      <div class="events-admin-columns">
+        <section class="events-admin-section">
+          <h3>Upcoming events</h3>
+          <div class="events-admin-list" id="admin-upcoming-list"></div>
+        </section>
+        <section class="events-admin-section">
+          <h3>Past events</h3>
+          <div class="events-admin-list" id="admin-past-list"></div>
+        </section>
+      </div>
+
+      <form class="events-admin-form" id="events-admin-form">
+        <h3 id="events-form-heading">Add event</h3>
+        <input type="hidden" id="event-edit-id" value="" />
+        <label class="events-admin-label" for="event-type">Type</label>
+        <select class="events-admin-input" id="event-type" required>
+          <option value="upcoming">Upcoming</option>
+          <option value="past">Past</option>
+        </select>
+        <label class="events-admin-label" for="event-datetime">Time &amp; location</label>
+        <input class="events-admin-input" id="event-datetime" type="text" placeholder="March 15, 2026 · 6:00 PM EST · Lerner Hall" required />
+        <label class="events-admin-label" for="event-title">Title</label>
+        <input class="events-admin-input" id="event-title" type="text" required />
+        <label class="events-admin-label" for="event-description">Description</label>
+        <textarea class="events-admin-input events-admin-textarea" id="event-description" rows="4" required></textarea>
+        <label class="events-admin-label" for="event-form-url">Google Form link</label>
+        <input class="events-admin-input" id="event-form-url" type="url" placeholder="https://forms.gle/..." required />
+        <div class="events-admin-actions">
+          <button type="button" class="button secondary" id="event-form-cancel" hidden>Cancel edit</button>
+          <button type="submit" class="button primary" id="event-form-submit">Add event</button>
+        </div>
+      </form>
+
+      <div class="events-admin-toolbar">
+        <button type="button" class="button secondary" id="events-download-json">Download events-data.json</button>
+        <button type="button" class="button secondary" id="events-reset-defaults">Reset to site defaults</button>
+        <button type="button" class="button primary" id="events-admin-logout">Log out</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="events.js"></script>
+</body>
+</html>

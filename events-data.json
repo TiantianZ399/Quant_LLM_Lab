@@ -1,0 +1,20 @@
+{
+  "upcoming": [
+    {
+      "id": "spring-info-2026",
+      "datetime": "March 15, 2026 · 6:00 PM EST · Location TBA",
+      "title": "Spring Info Session",
+      "description": "Introduction to Columbia Quant LLM Club, our research tracks, and how to get involved.",
+      "formUrl": "https://forms.gle/YOUR_FORM_ID"
+    }
+  ],
+  "past": [
+    {
+      "id": "winter-kickoff-2026",
+      "datetime": "February 1, 2026 · 5:30 PM EST · Location TBA",
+      "title": "Winter Kickoff Meetup",
+      "description": "First gathering of the semester: member introductions, club roadmap, and Q&A.",
+      "formUrl": "https://forms.gle/YOUR_FORM_ID"
+    }
+  ]
+}
