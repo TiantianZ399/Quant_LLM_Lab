@@ -9,3 +9,5 @@ see our team:  https://columbiaquantllm.com/team
 
 our first official learning seminar https://autumn-cyber-aka.github.io/columbia-quant-llm.github.io/index.html 
 
+our studio page: https://tiantianz399.github.io/Quant_LLM_Lab/index.html
+
