@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Titania</title>
+  <meta name="description" content="Titania — The First Studio That Sells Concepts.">
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: "Times New Roman", Times, serif;
+      color: #111;
+      background: #fff;
+      line-height: 1.45;
+    }
+    a { color: #111; text-decoration: underline; text-underline-offset: 4px; }
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 24px;
+    }
+    .hero-inner { max-width: 900px; }
+    h1 {
+      margin: 0;
+      font-size: clamp(72px, 12vw, 180px);
+      font-weight: 400;
+      letter-spacing: -0.06em;
+    }
+    .slogan {
+      margin-top: 16px;
+      font-size: clamp(22px, 3vw, 42px);
+      font-style: italic;
+    }
+    .footnote {
+      margin-top: 28px;
+      font-size: 16px;
+      color: #555;
+    }
+    .scroll {
+      display: inline-block;
+      margin-top: 70px;
+      font-size: 18px;
+    }
+    section {
+      min-height: 100vh;
+      padding: 90px 24px;
+      display: flex;
+      align-items: center;
+      border-top: 1px solid #e5e5e5;
+    }
+    .container {
+      width: 100%;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    h2 {
+      margin: 0 0 28px;
+      font-size: clamp(42px, 6vw, 96px);
+      font-weight: 400;
+      letter-spacing: -0.04em;
+    }
+    h3 {
+      margin: 0 0 10px;
+      font-size: clamp(28px, 4vw, 56px);
+      font-weight: 400;
+    }
+    p {
+      margin: 0 0 18px;
+      max-width: 760px;
+      font-size: clamp(20px, 2.2vw, 30px);
+    }
+    .small {
+      font-size: clamp(17px, 1.6vw, 22px);
+      color: #444;
+    }
+    .products {
+      display: grid;
+      gap: 36px;
+      margin-top: 30px;
+    }
+    .product {
+      padding-top: 28px;
+      border-top: 1px solid #ddd;
+    }
+    .label {
+      margin-bottom: 12px;
+      font-size: 16px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #666;
+    }
+    .utopia {
+      font-size: clamp(80px, 15vw, 220px);
+      letter-spacing: -0.08em;
+      line-height: 0.9;
+    }
+    footer {
+      padding: 40px 24px;
+      border-top: 1px solid #e5e5e5;
+      text-align: center;
+      color: #555;
+      font-size: 16px;
+    }
+    @media (max-width: 700px) {
+      section { padding: 70px 22px; }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-inner">
+        <h1>Titania</h1>
+        <div class="slogan">The First Studio That Sells Concepts.</div>
+        <div class="footnote">Titania, Chinese translation: 女娲. The first cultural studio.</div>
+        <a class="scroll" href="#about">Scroll down</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About</h2>
+        <p>Titania is an independent cultural and research studio.</p>
+        <p>We believe concepts can be designed, cultivated, and distributed.</p>
+        <p class="small">
+          Every product begins as a concept. Every community begins as a concept.
+          Every civilization begins as a concept.
+        </p>
+        <p><a href="#products">See products</a></p>
+      </div>
+    </section>
+
+    <section id="products">
+      <div class="container">
+        <h2>Products</h2>
+
+        <div class="products">
+          <div class="product">
+            <div class="label">Product I</div>
+            <h3>Columbia Quant LLM</h3>
+            <p>
+              A community for understanding large language models through theory,
+              empirical research, and frontier systems.
+            </p>
+            <p><a href="https://columbiaquantllm.com">Visit columbiaquantllm.com</a></p>
+          </div>
+
+          <div class="product">
+            <div class="label">Product II</div>
+            <h3>Learning Seminar</h3>
+            <p>
+              A selective learning seminar for frontier ideas.
+              Access is available upon request with a short biography.
+            </p>
+            <p>
+              <a href="https://docs.google.com/document/d/1FSspHKmabAPF2JMG-7i6R9DBTKF2WyUA/edit">
+                Request access to the seminar document
+              </a>
+            </p>
+          </div>
+
+          <div class="product">
+            <div class="label">Product III</div>
+            <h3>Metaverse</h3>
+            <p>
+              A newly defined metaverse: virtual reality powered by large language models.
+            </p>
+            <p class="small">
+              Not merely a game. Not merely social media. An experiment in digital civilization.
+            </p>
+          </div>
+
+          <div class="product">
+            <div class="label">And so on</div>
+            <h3>Future Concepts</h3>
+            <p>
+              More products will appear as concepts mature into communities,
+              seminars, research programs, and virtual societies.
+            </p>
+          </div>
+        </div>
+
+        <p style="margin-top: 54px;"><a href="#goal">Scroll down to see our ultimate goal</a></p>
+      </div>
+    </section>
+
+    <section id="goal">
+      <div class="container">
+        <div class="label">Ultimate Goal</div>
+        <h2 class="utopia">桃花源</h2>
+        <p>Utopia.</p>
+        <p>
+          An idealistic society and community built on knowledge, culture,
+          technology, and mutual respect.
+        </p>
+        <p class="small">
+          Our goal is not only to build products, but to construct a space where
+          people can learn, create, and live closer to truth.
+        </p>
+        <p><a href="#top">Back to top</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Titania · The First Studio That Sells Concepts.
+  </footer>
+</body>
+</html>
