@@ -3,8 +3,6 @@ This repository contains the self-learn materials for Quant_LLM_lab run by Colum
 
 https://www.columbia.edu/ 🦁 💙
 
-https://tiantianz399.github.io/Quant_LLM_Lab/index.html homepage for our lab/club.
-
 officially : https://columbiaquantllm.com/
 
 see our team:  https://columbiaquantllm.com/team
