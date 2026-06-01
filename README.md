@@ -7,7 +7,8 @@ officially : https://columbiaquantllm.com/
 
 see our team:  https://columbiaquantllm.com/team
 
-our first official learning seminar https://autumn-cyber-aka.github.io/columbia-quant-llm.github.io/index.html 
+our first official learning seminar https://tiantianz399.github.io/columbia-quant-llm.github.io/ 
 
-our studio page: https://tiantianz399.github.io/Quant_LLM_Lab/studio/Titania.html
+our studio page: https://tiantianz399.github.io/Quant_LLM_Lab/studio/Titania.html the first cultural studio sells frontier concepts.👸
+
 
